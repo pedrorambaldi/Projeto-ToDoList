@@ -5,9 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>To Do List</title>
-    <!-- CSS do projeto -->
-    <link rel="stylesheet" href="css/style.css" />
-    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/style.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
@@ -15,8 +13,7 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-    <!-- JS do projeto -->
-    <script src="js/script.js" defer></script>
+    <script src="js/scripts.js" defer></script>
   </head>
   <body>
     <div class="todo-container">
@@ -24,7 +21,7 @@
         <h1>To Do List</h1>
       </header>
       <form id="todo-form">
-        <p>Adicione a sua tarefa:</p>
+        <p>Adicione sua tarefa</p>
         <div class="form-control">
           <input
             type="text"
@@ -47,10 +44,10 @@
         <button id="cancel-edit-btn">Cancelar</button>
       </form>
       <div id="toolbar">
-        <div id="serarch">
+        <div id="search">
           <h4>Pesquisar:</h4>
           <form>
-            <input type="text" id="search-input" placeholder="Buscar" />
+            <input type="text" id="search-input" placeholder="Buscar..." />
             <button id="erase-button">
               <i class="fa-solid fa-delete-left"></i>
             </button>
@@ -66,30 +63,6 @@
         </div>
       </div>
       <div id="todo-list">
-        <div class="todo">
-          <h3>Estou fazendo alguma coisa...</h3>
-          <button class="finish-todo">
-            <i class="fa-solid fa-check"></i>
-          </button>
-          <button class="edit-todo">
-            <i class="fa-solid fa-pen"></i>
-          </button>
-          <button class="remove-todo">
-            <i class="fa-solid fa-xmark"></i>
-          </button>
-        </div>
-        <div class="todo">
-            <h3>Estudar JavaScript</h3>
-            <button class="finish-todo">
-              <i class="fa-solid fa-check"></i>
-            </button>
-            <button class="edit-todo">
-              <i class="fa-solid fa-pen"></i>
-            </button>
-            <button class="remove-todo">
-              <i class="fa-solid fa-xmark"></i>
-            </button>
-          </div>
       </div>
     </div>
   </body>
